@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A2D10E1D6427980091BFC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D10D1D6427980091BFC8 /* main.m */; };
+		C0A2D1111D6427980091BFC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D1101D6427980091BFC8 /* AppDelegate.m */; };
+		C0A2D1141D6427980091BFC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D1131D6427980091BFC8 /* ViewController.m */; };
+		C0A2D1171D6427980091BFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D1151D6427980091BFC8 /* Main.storyboard */; };
+		C0A2D1191D6427990091BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D1181D6427990091BFC8 /* Assets.xcassets */; };
+		C0A2D11C1D6427990091BFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D11A1D6427990091BFC8 /* LaunchScreen.storyboard */; };
+		C0A2D1261D64286C0091BFC8 /* MBChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D1251D64286C0091BFC8 /* MBChatViewController.m */; };
+		C0A2D12A1D6428950091BFC8 /* MBChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D1281D6428950091BFC8 /* MBChatCell.m */; };
+		C0A2D12B1D6428950091BFC8 /* MBChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D1291D6428950091BFC8 /* MBChatCell.xib */; };
+		C0A2D12E1D646D130091BFC8 /* MBChat.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D12D1D646D130091BFC8 /* MBChat.m */; };
+		C0A2D1321D6475AF0091BFC8 /* WhoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D1301D6475AF0091BFC8 /* WhoChatViewController.m */; };
+		C0A2D1331D6475AF0091BFC8 /* WhoChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A2D1311D6475AF0091BFC8 /* WhoChatViewController.xib */; };
+		C0A2D1361D64836F0091BFC8 /* MBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D1351D64836F0091BFC8 /* MBTextView.m */; };
+		C0A2D1391D64864D0091BFC8 /* MBExpandingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A2D1381D64864D0091BFC8 /* MBExpandingTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0A2D1091D6427980091BFC8 /* MBChatView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBChatView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A2D10D1D6427980091BFC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0A2D10F1D6427980091BFC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0A2D1101D6427980091BFC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0A2D1121D6427980091BFC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0A2D1131D6427980091BFC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0A2D1161D6427980091BFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A2D1181D6427990091BFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A2D11B1D6427990091BFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0A2D11D1D6427990091BFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A2D1241D64286C0091BFC8 /* MBChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBChatViewController.h; sourceTree = "<group>"; };
+		C0A2D1251D64286C0091BFC8 /* MBChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBChatViewController.m; sourceTree = "<group>"; };
+		C0A2D1271D6428950091BFC8 /* MBChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBChatCell.h; sourceTree = "<group>"; };
+		C0A2D1281D6428950091BFC8 /* MBChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBChatCell.m; sourceTree = "<group>"; };
+		C0A2D1291D6428950091BFC8 /* MBChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBChatCell.xib; sourceTree = "<group>"; };
+		C0A2D12C1D646D130091BFC8 /* MBChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBChat.h; sourceTree = "<group>"; };
+		C0A2D12D1D646D130091BFC8 /* MBChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBChat.m; sourceTree = "<group>"; };
+		C0A2D12F1D6475AF0091BFC8 /* WhoChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhoChatViewController.h; sourceTree = "<group>"; };
+		C0A2D1301D6475AF0091BFC8 /* WhoChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhoChatViewController.m; sourceTree = "<group>"; };
+		C0A2D1311D6475AF0091BFC8 /* WhoChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhoChatViewController.xib; sourceTree = "<group>"; };
+		C0A2D1341D64836F0091BFC8 /* MBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextView.h; sourceTree = "<group>"; };
+		C0A2D1351D64836F0091BFC8 /* MBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextView.m; sourceTree = "<group>"; };
+		C0A2D1371D64864D0091BFC8 /* MBExpandingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBExpandingTextView.h; sourceTree = "<group>"; };
+		C0A2D1381D64864D0091BFC8 /* MBExpandingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBExpandingTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A2D1061D6427980091BFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A2D1001D6427980091BFC8 = {
+			isa = PBXGroup;
+			children = (
+				C0A2D10B1D6427980091BFC8 /* MBChatView */,
+				C0A2D10A1D6427980091BFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A2D10A1D6427980091BFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D1091D6427980091BFC8 /* MBChatView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A2D10B1D6427980091BFC8 /* MBChatView */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D1231D6427B10091BFC8 /* MBChat */,
+				C0A2D10F1D6427980091BFC8 /* AppDelegate.h */,
+				C0A2D1101D6427980091BFC8 /* AppDelegate.m */,
+				C0A2D1121D6427980091BFC8 /* ViewController.h */,
+				C0A2D1131D6427980091BFC8 /* ViewController.m */,
+				C0A2D1151D6427980091BFC8 /* Main.storyboard */,
+				C0A2D1181D6427990091BFC8 /* Assets.xcassets */,
+				C0A2D11A1D6427990091BFC8 /* LaunchScreen.storyboard */,
+				C0A2D11D1D6427990091BFC8 /* Info.plist */,
+				C0A2D10C1D6427980091BFC8 /* Supporting Files */,
+				C0A2D12F1D6475AF0091BFC8 /* WhoChatViewController.h */,
+				C0A2D1301D6475AF0091BFC8 /* WhoChatViewController.m */,
+				C0A2D1311D6475AF0091BFC8 /* WhoChatViewController.xib */,
+			);
+			path = MBChatView;
+			sourceTree = "<group>";
+		};
+		C0A2D10C1D6427980091BFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D10D1D6427980091BFC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A2D1231D6427B10091BFC8 /* MBChat */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2D1241D64286C0091BFC8 /* MBChatViewController.h */,
+				C0A2D1251D64286C0091BFC8 /* MBChatViewController.m */,
+				C0A2D1271D6428950091BFC8 /* MBChatCell.h */,
+				C0A2D1281D6428950091BFC8 /* MBChatCell.m */,
+				C0A2D1291D6428950091BFC8 /* MBChatCell.xib */,
+				C0A2D12C1D646D130091BFC8 /* MBChat.h */,
+				C0A2D12D1D646D130091BFC8 /* MBChat.m */,
+				C0A2D1341D64836F0091BFC8 /* MBTextView.h */,
+				C0A2D1351D64836F0091BFC8 /* MBTextView.m */,
+				C0A2D1371D64864D0091BFC8 /* MBExpandingTextView.h */,
+				C0A2D1381D64864D0091BFC8 /* MBExpandingTextView.m */,
+			);
+			path = MBChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A2D1081D6427980091BFC8 /* MBChatView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A2D1201D6427990091BFC8 /* Build configuration list for PBXNativeTarget "MBChatView" */;
+			buildPhases = (
+				C0A2D1051D6427980091BFC8 /* Sources */,
+				C0A2D1061D6427980091BFC8 /* Frameworks */,
+				C0A2D1071D6427980091BFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBChatView;
+			productName = MBChatView;
+			productReference = C0A2D1091D6427980091BFC8 /* MBChatView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A2D1011D6427980091BFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mitul Bhadeshiya";
+				TargetAttributes = {
+					C0A2D1081D6427980091BFC8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C0A2D1041D6427980091BFC8 /* Build configuration list for PBXProject "MBChatView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A2D1001D6427980091BFC8;
+			productRefGroup = C0A2D10A1D6427980091BFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A2D1081D6427980091BFC8 /* MBChatView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A2D1071D6427980091BFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A2D11C1D6427990091BFC8 /* LaunchScreen.storyboard in Resources */,
+				C0A2D1331D6475AF0091BFC8 /* WhoChatViewController.xib in Resources */,
+				C0A2D1191D6427990091BFC8 /* Assets.xcassets in Resources */,
+				C0A2D12B1D6428950091BFC8 /* MBChatCell.xib in Resources */,
+				C0A2D1171D6427980091BFC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A2D1051D6427980091BFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A2D12A1D6428950091BFC8 /* MBChatCell.m in Sources */,
+				C0A2D1391D64864D0091BFC8 /* MBExpandingTextView.m in Sources */,
+				C0A2D1321D6475AF0091BFC8 /* WhoChatViewController.m in Sources */,
+				C0A2D1141D6427980091BFC8 /* ViewController.m in Sources */,
+				C0A2D1111D6427980091BFC8 /* AppDelegate.m in Sources */,
+				C0A2D10E1D6427980091BFC8 /* main.m in Sources */,
+				C0A2D12E1D646D130091BFC8 /* MBChat.m in Sources */,
+				C0A2D1361D64836F0091BFC8 /* MBTextView.m in Sources */,
+				C0A2D1261D64286C0091BFC8 /* MBChatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0A2D1151D6427980091BFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A2D1161D6427980091BFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A2D11A1D6427990091BFC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A2D11B1D6427990091BFC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A2D11E1D6427990091BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0A2D11F1D6427990091BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A2D1211D6427990091BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MBChatView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerclouds.MBChatView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0A2D1221D6427990091BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MBChatView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerclouds.MBChatView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A2D1041D6427980091BFC8 /* Build configuration list for PBXProject "MBChatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A2D11E1D6427990091BFC8 /* Debug */,
+				C0A2D11F1D6427990091BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A2D1201D6427990091BFC8 /* Build configuration list for PBXNativeTarget "MBChatView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A2D1211D6427990091BFC8 /* Debug */,
+				C0A2D1221D6427990091BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A2D1011D6427980091BFC8 /* Project object */;
+}
