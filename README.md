@@ -6,7 +6,7 @@ Simple Light chat screen
 This example is demostrate how to make simple chat view lightwaight 
 
 How to use ?
-Just you have to create viewcontroller with parentclass <Code>MBChatViewController<code> and call method for set default messages 
+Just you have to create viewcontroller with parentclass <Code>MBChatViewController</Code> and call method for set default messages 
 <pre>
 [self setDefaultMessages:[self defaultMessages]];
 </pre>
